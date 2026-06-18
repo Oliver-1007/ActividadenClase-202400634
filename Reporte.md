@@ -1,8 +1,6 @@
 # Reporte de Laboratorio: Arquitectura Multi-Nivel (N-Tier) y Patrón MVC en .NET
 
 **Curso:** Introducción a la Programación y Computación 2  
-**Modalidad:** Individual  
-**Duración estimada:** 120 minutos
 
 ---
 
