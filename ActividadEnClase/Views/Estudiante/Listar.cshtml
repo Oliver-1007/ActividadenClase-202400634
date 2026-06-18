@@ -1,0 +1,26 @@
+@model IEnumerable<ActividadEnClase.Models.Estudiante>
+@{
+    ViewData["Title"] = "Listado de Estudiantes";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Carné</th>
+            <th>Nombre</th>
+            <th>Promedio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in Model)
+        {
+            <tr>
+                <td>@estudiante.Carne</td>
+                <td>@estudiante.Nombre</td>
+                <td>@estudiante.Promedio</td>
+            </tr>
+        }
+    </tbody>
+</table>
